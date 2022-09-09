@@ -1,0 +1,63 @@
+body{
+  text-align: center;
+  background-color: rgb(216, 216, 200);
+  font-family: 'Lato', sans-serif;
+  max-height: 100vh;
+  color: #000;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 50px 150px 50px 150px;
+}
+.form-city{
+  height: 40px;
+  width: 280px;
+}
+.city-ok{
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  background-color: rgb(4 112 208);
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.weather_block{
+  font-size: 30px;
+  height: 100%;
+  width: 100%;
+}
+.wrapper_weather{
+  display: flex;
+  flex-direction: column;
+}
+.cit_tem{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tempe{
+  width: 100px;
+  height: 100%;
+  justify-content: center;
+}
+.feels_like{
+  font-size: 13px;
+}
+.sky_over{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img_weather{
+  height: 250px;
+  width: 250px;
+}
+.sky_clouds{
+  height: 100px;
+  width: 100px;
+}
